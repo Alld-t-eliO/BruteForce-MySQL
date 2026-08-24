@@ -1,0 +1,2 @@
+# BruteForce-MySQL
+Simple python script to Brute force weak MySQL ports. (FOR EDUCATIONAL PURPOSE ONLY. DO NOT USE ON REAL SERVICES. I'M NOT RESPONSIBLE  OF YOUR ACTS.)
