@@ -68,10 +68,10 @@ class MySQLAuditPro:
         print(f"\n{'='*70}")
         print(f"🔍 AUDIT MYSQL")
         print(f"{'='*70}")
-        print(f"  📍 Cible    : {self.host}:{self.port}")
+        print(f"  📍 Target    : {self.host}:{self.port}")
         print(f"  👤 User     : {user}")
         print(f"  📂 Fichier  : {password_file}")
-        print(f"  ⏱️  Début    : {self.start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"  ⏱️ Start    : {self.start_time.strftime('%Y-%m-%d %H:%M:%S')}")
         print(f"{'='*70}\n")
         
         try:
@@ -84,7 +84,7 @@ class MySQLAuditPro:
                 
             if max_tests > 0:
                 passwords = passwords[:max_tests]
-                print(f"📊 Test liited at {max_tests} passwords at {len(passwords)} unaible\n")
+                print(f"📊 Test listed at {max_tests} passwords at {len(passwords)} unaible\n")
             else:
                 print(f"📊 {len(passwords)} password to test\n")
             
